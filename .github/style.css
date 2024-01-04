@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    position: sticky;
+    color:black;
+    padding: 40px;
+    width: 100%;
+    height: 80vh;
+    background-color:rgba(200, 230, 230, 0.995);
+
+
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.main h2{
+    font-size: 2.5em;
+    font-family: poppins;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a{
+    cursor:pointer;
+    transition: 2s;
+    padding:5px;
+    transition: 3s;
+    color: black;
+    font-size:1.5em;
+    
+}
+.imp{
+    color:black;
+}
+a:hover{
+    border:0.5px solid #ff4321;
+}
+.logo{
+    width: 170px;
+}
+.cls{
+    align-items: center;
+}
+.main button{
+    width:120px;
+    height: 50px;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+    font-size:1em;
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:40px;
+}
+.imgg img{
+    padding-left: 35px;
+   width: 850px;
+   height: 500px;
+   
+}
+.title{
+    padding: 20px;
+}
+.title h1{
+    color:blue;
+    font-weight: medium;
+    font-size: 5em;
+    font-family: poppins;
+    padding: 10px 0px;
+}
+.title p{
+    font-size:1.5em;
+}
+.click{
+    padding:20px;
+    display: flex;
+   align-items: center;
+}
+.btn1{
+   width:150px;
+   height: 50px;
+   margin: 10px;
+  border: none;
+  background-color: blue;
+  border-radius: 15px;
+  color:white; 
+  font-size:1em;
+  font-weight: bold;
+}
+.btn2{
+    width:150px;
+    height: 50px;
+    margin: 10px;
+   border: none;
+   background:transparent;
+   border: 1px solid blue;
+   border-radius: 15px;
+   font-size:1em;
+   color:blue;
+   font-weight: bold;
+}
+main{
+    padding: 20px;
+}
+.tit{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: arial;
+    padding: 20px;
+}
+.tip{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.fet{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+.fet img{
+    width: 700px;
+    height: 700px;
+    padding: 30px;
+}
+.products{
+    padding:30px 40px;
+}
+.products h2{
+    padding: 20px;
+    font-size: 2em;
+    font-family: Arial;
+}
+.products p{
+    padding:0px 20px;
+    font-family: poppins;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.itms{
+    padding: 35px;
+   
+}
+.itms img{
+    width: 300px;
+    padding: 10px;
+    height: 350px;
+    border-radius: 40px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.grad{
+    display:flex;
+    justify-content: center;
+   gap:60px;
+    padding:40px;
+}
+.blk{
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(next.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 550px;
+  
+}
+.hdi{
+    padding: 35px;
+    font-size: 1.6em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ .p{
+    font-size: 0.7em;
+    font-family: pooppins;
+    color: blue;
+    padding-top: 20px;
+}
+.hdi a{
+    text-decoration: none;
+    color: blue;
+}
+.docu{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+.details{
+    font-size: 1.5em;
+    padding: 60px;
+    background-color: rgb(202, 197, 197);
+
+}
+.src{
+    padding: 20px;
+}
+.src img{
+    width:600px;
+    height: 400px;
+}
+.cont{
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(200, 230, 230, 0.995);
+
+}
+.cont h3{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: blue;
+
+}
+.cont p{
+   font-size: 1em;
+   font-family: poppins;
+}
+span{
+    color:blue;
+    font-weight: bold;
+}
